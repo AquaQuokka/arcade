@@ -1,0 +1,22 @@
+html {
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    zoom: 95%;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2e2e2e;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #2e2e2e;
+}

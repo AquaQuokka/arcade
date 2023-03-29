@@ -1,0 +1,98 @@
+html {
+    background: black;
+    cursor: auto;
+    zoom: 0.6;
+}
+
+#map {
+    width: 800px;
+    height: 800px;
+    border-radius: 0px;
+}
+
+#heading {
+    color: white;
+    font-size: 30px;
+    font-family: arial;
+}
+
+#distance, #remaining, #metres {
+    font-family: arial;
+    font-size: 20px;
+}
+
+.tg {
+    border-color: transparent;
+    font-family: Arial, sans-serif;
+    border-spacing: 3px;
+    border-collapse: separate;
+}
+
+
+.tg td {
+    border-color: transparent;
+    border-style: solid;
+    font-family:Arial, sans-serif;
+    font-size:20px;
+    overflow:hidden;
+    word-break:normal;
+}
+
+.tg th{
+    border-width:1px;
+    border-color: transparent;
+    font-family:Arial, sans-serif;
+    font-size:20px;
+    font-weight:normal;
+    overflow:hidden;
+    word-break:normal;
+}
+
+.tg .tg-kus3{
+    background-color:transparent;
+    color:white;
+    border-color: transparent;
+    text-align:left;
+    vertical-align:top;
+}
+
+.tg .tg-dusx {
+    background-color: transparent;
+    border-color: transparent;
+    color:white;
+    text-align:left;
+    vertical-align:top;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2e2e2e;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #2e2e2e;
+}
+
+#retry {
+    border: 1px solid rgb(14, 14, 62);
+    border-radius: 18px;
+    background-color: rgb(14, 14, 62);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    font-family: arial;
+}
