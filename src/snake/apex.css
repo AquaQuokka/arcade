@@ -80,3 +80,9 @@ button {
 ::-webkit-scrollbar-thumb:hover {
   background: #2e2e2e;
 }
+
+#over {
+  color: red;
+  font-family: Courier;
+  font-size: 15px;
+}

@@ -1,4 +1,4 @@
-// TODO: MAKE GAME PAUSE AT START AND CHANGE ICONS FOR BUTTON APPROPRIATELY
+// TODO: MAKE GAME PAUSE AT START AND END
 
     var gameLoop = function() {
         var canvas = document.getElementById("canvas");
@@ -51,15 +51,15 @@
         };
 
         var drawScore = function() {
-            ctx.font = "16px Arial"
-            ctx.color = "White"
-            ctx.fillText(score, 5, 15)
+            ctx.font = "16px Arial";
+            ctx.fillStyle = "White";
+            ctx.fillText(score, 5, 15);
         };
 
 
         var gameOver = function() {
-            $("#score").text("Game over!")
-            location.reload()
+            Snake.prototype.move = function(){};
+            $("#over").text("GAME OVER!");
         };
 
 
@@ -112,28 +112,13 @@
             this.nextDirection = "right";
         };
 
-        var colors = ["White","LightGray","DarkGray"]
 
     Snake.prototype.draw = function() {
 
-        /*
-        var dirpnt;
-
-        if (this.direction === "right") {
-            dirpnt = ">";
-        } else if (this.direction === "down") {
-            dirpnt = "V";
-        } else if (this.direction === "left") {
-            dirpnt = "<";
-        } else if (this.direction === "up") {
-            dirpnt = "\u039B";
-        }
-
-        */
-
         for(var i = 0; i < this.segments.length; i++) {
-            this.segments[i].drawSquare("White");
+            this.segments[i].drawSquare("White")
         }
+
     };
 
         Snake.prototype.move = function() {
